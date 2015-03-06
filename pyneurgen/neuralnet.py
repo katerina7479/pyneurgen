@@ -629,7 +629,7 @@ class NeuralNet(object):
 
         return mse
 
-    def process_sample(self, inputs, targets, learn=False):
+    def process_sample(self, inputs, targets=None, learn=False):
         """
         Accepts inputs and targets, then forward and back propagations.  A
         comparison is then made of the generated output with the target values.
@@ -652,6 +652,12 @@ class NeuralNet(object):
             self._update_error(toponly=True)
 
         self._copy_levels()
+
+        outputs = []
+        for node in self.output_layer.nodes:
+            outputs.append(node._value)
+
+        return outputs
 
     def _feed_forward(self):
         """
