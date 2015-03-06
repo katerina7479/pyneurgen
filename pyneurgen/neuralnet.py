@@ -385,7 +385,7 @@ class NeuralNet(object):
         """
 
         i = start_position
-        if end_position > len(self._allinputs) - 1:
+        if end_position > len(self._allinputs):
             raise ValueError(
                 "end_position %s is past end of ._allinputs, %s" % (
                     end_position, len(self._allinputs)))
