@@ -1,3 +1,15 @@
+Fork of Python Neural Genetic Hybrids
+========================================
+This is a fork of the package below. I had some bugfixes and changes I wanted to implement
+to make it more useful for me.
+
+This package can be installed with pip through github:
+
+[sudo] pip install git+https://github.com/katerina7479/pyneurgen.git@master
+
+See the original Readme below.
+
+
 Python Neural Genetic Hybrids -- Release 0.3
 =================================================
 

@@ -4,11 +4,11 @@ from setuptools import setup, find_packages
 
 setup(
     name='pyneurgen',
-    version='0.3.1',
+    version='0.3.2',
     description='Python Neural Genetic Hybrids',
-    author='Don Smiley',
-    author_email='ds@sidorof.com',
-    url='http://pyneurgen/sourceforge.net',
+    author='Katerina Hanson',
+    author_email='katerina.hanson@gmail.com',
+    url='https://github.com/katerina7479/pyneurgen',
     packages=['pyneurgen'],
     package_dir={'pyneurgen': 'pyneurgen'},
     long_description="""

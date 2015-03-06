@@ -1,0 +1,3 @@
+3.3.2 - 2015-03-06
+    * Fix for error of length of input text on learn.
+    * Added some functionality to process sample, returns outputs.
